@@ -13,14 +13,14 @@ public class ClothingItem {
     @Column(name = "item_name")
      private String name;
     @Column(name = "url")
-     private String url;
+     private String imageUrl;
     @Column(name = "price")
      private int price;
 
     public ClothingItem(int identification, String name, String url, int price) {
         this.identification = identification;
         this.name = name;
-        this.url = url;
+        this.imageUrl = url;
         this.price = price;
     }
 
@@ -40,12 +40,12 @@ public class ClothingItem {
         this.name = name;
     }
 
-    public String getUrl() {
-        return url;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public int getPrice() {

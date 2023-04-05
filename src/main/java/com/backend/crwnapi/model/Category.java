@@ -23,20 +23,20 @@ public class Category {
         this.items = clothingItems;
     }
 
-    public String getCategoryName() {
+    public String getTitle() {
         return title;
     }
 
-    public void setCategoryName(String categoryName) {
-        this.title = categoryName;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public List<ClothingItem> getClothingItems() {
+    public List<ClothingItem> getItems() {
         return items;
     }
 
-    public void setClothingItems(List<ClothingItem> clothingItems) {
-        this.items = clothingItems;
+    public void setItems(List<ClothingItem> items) {
+        this.items = items;
     }
 }
 
